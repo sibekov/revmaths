@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <p class="myparagraph">This is a test paragraph!</p>
+    <h1 class="heading">Revise Love Maths</h1>
+    <div class="game-area">
+      <button class="btn btn--big btn--green"></button>
+      <button class="btn btn--big btn--red"></button>
+    </div>
+    <div class="question-area">
+      <span id="operand1">0</span>
+      <span id="operator">x</span>
+      <span id="operand2">0</span>
+      <p class="answer-message">Enter Answer:</p>
+      <input id="answer-box" type="number" />
+    </div>
+    <button class="btn btn==gray">Submit Answer</button>
+    <div class="score-area">
+      <p class="scores">Correct Answers <span id="score">0</span></p>
+      <p class="scores">Incorrect Answers <span id="scores">0</span></p>
+    </div>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
